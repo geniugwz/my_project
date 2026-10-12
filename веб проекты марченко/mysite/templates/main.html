@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1"/>
+    <title>TechGear — Магазин компьютерной утвари</title>
+    <link rel="stylesheet" href="../static/css/main.css">
+</head>
+<body>
+
+    <header>
+        <a href="/" class="logo">TechGear</a>
+        <nav>
+            <ul>
+                <li><a href="/">Главная</a></li>
+                <li><a href="#products">Каталог</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Магазин компьютерной утвари TechGear</h1>
+        <p>Лучшие комплектующие, периферия и аксессуары для вашего ПК.</p>
+
+        <!-- Кнопки категорий (статические) -->
+        <section id="categories" class="categories">
+            <a href="?category=all" class="category-btn active">Все товары</a>
+            <a href="?category=keyboards" class="category-btn">Клавиатуры</a>
+            <a href="?category=mice" class="category-btn">Мыши</a>
+            <a href="?category=headphones" class="category-btn">Наушники</a>
+            <a href="?category=monitors" class="category-btn">Мониторы</a>
+            <a href="?category=components" class="category-btn">Комплектующие</a>
+        </section>
+
+        <!-- Сетка товаров (статические карточки) -->
+        <section id="products">
+            <h2>Популярные товары</h2>
+            <div class="products-grid">
+                <!-- Товар 1 -->
+                <article class="product-card">
+                    <div class="product-img">
+                        <!-- Если есть картинка, раскомментируй строку ниже и укажи путь -->
+                        <!-- <img src="images/keyboard.jpg" alt="Механическая клавиатура X-Pro"> -->
+                    </div>
+                    <h3 class="product-title">Механическая клавиатура X-Pro</h3>
+                    <p class="price">8 990 ₽</p>
+                    <a href="#" class="add-to-cart">В корзину</a>
+                </article>
+
+                <!-- Товар 2 -->
+                <article class="product-card">
+                    <div class="product-img">
+                        <!-- <img src="images/mouse.jpg" alt="Игровая мышь Viper X"> -->
+                    </div>
+                    <h3 class="product-title">Игровая мышь Viper X</h3>
+                    <p class="price">4 500 ₽</p>
+                    <a href="#" class="add-to-cart">В корзину</a>
+                </article>
+
+                <!-- Товар 3 -->
+                <article class="product-card">
+                    <div class="product-img">
+                        <!-- <img src="images/headphones.jpg" alt="Наушники AudioMax Pro"> -->
+                    </div>
+                    <h3 class="product-title">Наушники AudioMax Pro</h3>
+                    <p class="price">6 200 ₽</p>
+                    <a href="#" class="add-to-cart">В корзину</a>
+                </article>
+
+                <!-- Товар 4 -->
+                <article class="product-card">
+                    <div class="product-img">
+                        <!-- <img src="images/monitor.jpg" alt="Монитор UltraView 27\""> -->
+                    </div>
+                    <h3 class="product-title">Монитор UltraView 27"</h3>
+                    <p class="price">24 990 ₽</p>
+                    <a href="#" class="add-to-cart">В корзину</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>О нас</h2>
+            <p>TechGear — это магазин для тех, кто ценит производительность и комфорт. Мы подбираем только проверенные товары от надёжных поставщиков и даём гарантию на всю продукцию.</p>
+        </section>
+    </main>
+
+    <footer id="contacts">
+        <p>&copy; 2024 TechGear. Все права защищены.</p>
+        <p>Телефон: +7 (999) 123-45-67 | Email: info@techgear.store</p>
+    </footer>
+</body>
+</html>
